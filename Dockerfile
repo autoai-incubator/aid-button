@@ -1,4 +1,4 @@
-ARG MODEL_URL=https://github.com/aidmodels/sentiment-analysis
+ARG MODEL_URL
 ARG PORT
 FROM ubuntu:20.04
 ENV MODEL_URL=$MODEL_URL
