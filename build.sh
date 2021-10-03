@@ -1,0 +1,1 @@
+docker build --build-arg AID_MODEL=$AID_MODEL --build-arg AID_VENDOR=$AID_VENDOR --build-arg AID_PACKAGE=$AID_PACKAGE --build-arg AID_SOLVER=$AID_SOLVER  -t aid-model .
